@@ -1,0 +1,35 @@
+@import 'variables.scss';
+.footer-copywrite{
+    height: 150px;
+    width: $default-width;
+    margin: 0 auto;
+    // background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+    border-top: 1px solid black; 
+    border-left: none;           
+    border-right: none;
+    border-bottom: none;
+    font-size: 13px;
+    color: gray;
+    
+    .rights{
+        position: absolute;
+        top: 0;
+        padding-top: 15px;
+        span{
+
+        }
+    }
+    .trademark{
+        // padding-bottom: 45px;
+        span{
+            
+        }
+    }
+}

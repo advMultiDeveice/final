@@ -1,0 +1,272 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ECE9E3;
+    height: 70px;
+    padding-top: 20px;
+  
+    .logo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: contain;
+        background-image: url(../assets/logo.png);
+        height: 30px;
+        width: 200px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+  
+    .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        // border: solid black;
+        border-radius: 25px;
+        background-color: white;
+        height: 35px;
+        width: 575px;
+        
+       
+        .search-icon {
+            font-size: 18px;
+        }
+  
+        span {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+  
+    .shipping {
+        font-size: 16px;
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .icons {
+        display: flex;
+        gap: 20px;
+  
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            .icon-img {
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            }
+    
+            .icon-text {
+            font-size: 14px;
+            color: #555;
+            }
+           
+        }
+        .cart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            .icon-img {
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            }
+    
+            .icon-text {
+            font-size: 14px;
+            color: #555;
+            }
+            .cart-text{
+                position: absolute;
+                top: 12px;
+                right: 35px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                // background-color: white;
+                color: black;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                font-size: small;
+            }
+        }
+       
+
+        
+    }
+}
+  
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        background-color: #ECE9E3;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        gap: 10px;
+        padding-right: 70px;
+  
+    a {
+        font-size: 15px;
+        color: #000;
+        text-decoration: none;
+  
+        &:hover {
+            color: red;
+          }
+    }
+  
+    .nav-link-icon {
+      font-size: 15px;
+      color: #555;
+      display: inline-block;
+    }
+}
+  
+
+@media screen and (max-width: 980px) {
+    .navbar {
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center; 
+        padding: 10px 20px; 
+        background-color: #ECE9E3;
+        height: auto; 
+        gap: 30px;
+      
+        .logo {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assets/logo.png);
+            height: 30px;
+            width: 200px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+      
+        .search-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            // border: solid black;
+            border-radius: 25px;
+            background-color: white;
+            height: 35px;
+            width: 575px;
+      
+            .search-icon {
+                font-size: 18px;
+            }
+      
+            span {
+                font-size: 16px;
+                color: #333;
+            }
+        }
+      
+        .shipping {
+            font-size: 16px;
+            color: #666;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+      
+        .icons {
+            display: flex;
+            gap: 20px;
+      
+            .icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                .icon-img {
+                font-size: 20px;
+                cursor: pointer;
+                position: relative;
+                }
+        
+                .icon-text {
+                font-size: 14px;
+                color: #555;
+                }
+               
+            }
+            .cart {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                .icon-img {
+                font-size: 20px;
+                cursor: pointer;
+                position: relative;
+                }
+        
+                .icon-text {
+                font-size: 14px;
+                color: #555;
+                }
+                .cart-text{
+                    position: absolute;
+                    top: 12px;
+                    right: 35px;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    // background-color: white;
+                    color: black;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    font-size: small;
+                }
+            }
+           
+    
+            
+        }
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 40px;
+        background-color: #ECE9E3;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        gap: 10px;
+        padding-right: 70px;
+        margin: 0 auto;
+        align-items: center;
+  
+    a {
+        font-size: 15px;
+        color: #000;
+        text-decoration: none;
+  
+        &:hover {
+            color: red;
+          }
+    }
+  
+    .nav-link-icon {
+      font-size: 15px;
+      color: #555;
+      display: inline-block;
+    }
+}
+      
+}

@@ -1,0 +1,220 @@
+@import 'variables';
+
+.top-holder{
+    
+    // padding: 0px 20px;
+    
+    justify-content: center;
+    // align-items: center;
+    width: $default-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    margin-bottom: 50px;
+    
+    // background-color: green;
+    
+    .img-coup{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(../assets/ad.webp);
+        height: 250px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .choices{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        // background-color: red;
+
+            .dropdowns{
+                width: 75%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                
+                // margin: 0 auto;
+                // background-color: yellow;
+                .types{
+                    height: 50px;
+                    width: 148px; 
+                    border: 2px solid gray;
+                    border-radius: 5%; 
+                    background-color: transparent;
+                    justify-content: space-around;
+                    align-items: center;
+                    display: flex; 
+
+                    
+                    span{
+                        font-size: 18px;
+                        color: black;
+                    }
+                    .arrow{
+                        height: 20px;
+                        width: 20px;
+                        // background-color: gray;
+                        background-image: url(../assets/arrow.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+                
+            }
+            .popularity{
+                // height: 50px;
+                // background-color: green;
+                height: 50px;
+                width: 180px;
+                margin-right: 10px; 
+                display: flex;
+                flex-direction: column;
+                
+                span{
+                    margin: 0;
+                    font-size: 14px;
+                }
+
+                .popularity-arrow{
+                    display: flex;               
+                    align-items: center;      
+                    justify-content: space-between; 
+                    gap: 10px;                    
+                    height: 50px;   
+                }
+                p {
+                    margin: 0; 
+                    font-size: 16px;
+                }
+
+                .arrow{
+                    height: 25px;
+                    width: 25px;
+                    // background-color: black;
+                    margin-right: 15px;
+                    background-image: url(../assets/arrow.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 980px) {
+    .top-holder{
+    
+        // padding: 0px 20px;
+        
+        justify-content: center;
+        // align-items: center;
+        width: $default-width;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        margin-bottom: 350px;
+        
+        // background-color: green;
+        
+        .img-coup{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../assets/ad.webp);
+            height: 250px;
+            margin-top: 30px;
+            width: 100%;
+        }
+        .choices{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            // background-color: red;
+    
+                .dropdowns{
+                    width: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    
+                    // margin: 0 auto;
+                    // background-color: yellow;
+                    .types{
+                        height: 50px;
+                        width: 148px; 
+                        border: 2px solid gray;
+                        border-radius: 5%; 
+                        background-color: transparent;
+                        justify-content: space-around;
+                        align-items: center;
+                        display: flex; 
+    
+                        
+                        span{
+                            font-size: 18px;
+                            color: black;
+                        }
+                        .arrow{
+                            height: 20px;
+                            width: 20px;
+                            // background-color: gray;
+                            background-image: url(../assets/arrow.png);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                    }
+                    
+                }
+                .popularity{
+                    // height: 50px;
+                    // background-color: green;
+                    height: 50px;
+                    width: 180px;
+                    // margin-right: 10px; 
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 40px;
+                    
+                    span{
+                        margin: 0;
+                        font-size: 14px;
+                    }
+    
+                    .popularity-arrow{
+                        display: flex;               
+                        align-items: center;      
+                        justify-content: space-between; 
+                        gap: 10px;                    
+                        height: 50px;   
+                    }
+                    p {
+                        margin: 0; 
+                        font-size: 16px;
+                    }
+    
+                    .arrow{
+                        height: 25px;
+                        width: 25px;
+                        // background-color: black;
+                        margin-right: 15px;
+                        background-image: url(../assets/arrow.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+    }
+}

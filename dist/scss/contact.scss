@@ -1,0 +1,165 @@
+@import 'variables.scss';
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: $default-width;
+    background-color: #473036;
+    color: white;
+    height: 50px;
+    // padding: 20px;
+    margin-top: 25px;
+    margin: 0 auto;
+    
+  
+    
+    .find{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        // background-color: black;
+        gap: 20px;
+        padding: 0 20px;
+        align-items: center;
+        // margin: 0 auto;
+        .addy{
+            width: 25px;
+            height: 25px;
+            // background-color: yellow;
+            background-image: url(../assets/addy.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .dot{
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+        span{
+
+        }
+    }
+
+    .social{
+        width: 50%;
+        padding-left: 250px;
+        // background-color: blue;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        .twitter{
+            width: 20px;
+            height: 20px;
+            // background-color: yellow;
+            background-image: url(../assets/facebook.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .fb{
+            width: 20px;
+            height: 20px;
+            // background-color: yellow;
+            background-image: url(../assets/twit.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .insta{
+            width: 20px;
+            height: 20px;
+            // background-color: yellow;
+            background-image: url(../assets/insta.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        span{
+
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .contact {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-between;
+        width: $default-width;
+        background-color: #473036;
+        color: white;
+        min-height: 100px;
+        // padding: 20px;
+        
+        margin: 0 auto;
+        
+      
+        
+        .find{
+            display: flex;
+           width: 100%;
+            height: 100%;
+            // background-color: black;
+            gap: 20px;
+            padding: 0 20px;
+            align-items: center;
+            // margin: 0 auto;
+            .addy{
+                width: 25px;
+                height: 25px;
+                // background-color: yellow;
+                background-image: url(../assets/addy.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .dot{
+                margin-bottom: 15px;
+                font-size: 30px;
+            }
+            span{
+    
+            }
+        }
+    
+        .social{
+            width: 100%;
+            .twitter{
+                width: 20px;
+                height: 20px;
+                // background-color: yellow;
+                background-image: url(../assets/facebook.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .fb{
+                width: 20px;
+                height: 20px;
+                // background-color: yellow;
+                background-image: url(../assets/twit.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .insta{
+                width: 20px;
+                height: 20px;
+                // background-color: yellow;
+                background-image: url(../assets/insta.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+    
+            span{
+    
+            }
+        }
+    }
+}

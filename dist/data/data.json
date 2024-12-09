@@ -1,0 +1,114 @@
+{
+    "PRODUCTS":[
+        {
+            "productImage": "assets/coffee-maker1.webp",
+
+            "productTitle": "Keurig® K-Select® Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+        },
+        {
+            "productImage": "assets/coffee-maker2.webp",
+
+            "productTitle": "Keurig® K-Classic® Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker3.webp",
+
+            "productTitle": "Keurig® K-Select® Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker4.webp",
+
+            "productTitle": "Keurig® K-Elite® Single Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker4.webp",
+
+            "productTitle": "K-Duo® Single Serve & Carafe Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker6.webp",
+
+            "productTitle": "K-Supreme Plus® SMART Single Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker7.webp",
+
+            "productTitle": "K-Duo® Hot & Iced Single Serve & Carafe Coffee Maker ",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker8.webp",
+
+            "productTitle": "Keurig® K-Elite® Single Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker9.webp",
+
+            "productTitle": "K-Iced™ Single Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker10.webp",
+
+            "productTitle": "K-Mini® Single Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker11.webp",
+
+            "productTitle": "K-Mini® Double Serve Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        },  {
+            "productImage": "assets/coffee-maker12.webp",
+
+            "productTitle": "K-Duo Plus® Single Serve & Carafe Coffee Maker",
+
+            "productDealPrice": "99.99",
+            "productRegularPrice": "199.99"
+            
+            
+        }
+    ]
+}
+
